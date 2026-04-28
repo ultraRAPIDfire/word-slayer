@@ -1,0 +1,8 @@
+body { margin: 0; background: #0a0a0a; color: #ff4d4d; font-family: 'Courier New', monospace; overflow: hidden; }
+#game-container { position: relative; width: 100vw; height: 100vh; display: flex; justify-content: center; }
+#player { position: absolute; bottom: 20px; font-size: 60px; }
+.word { position: absolute; font-weight: bold; font-size: 24px; text-transform: uppercase; }
+#word-input { position: absolute; bottom: 100px; background: transparent; border: 2px solid #ff4d4d; color: white; padding: 10px; text-align: center; }
+#stats { position: absolute; top: 20px; left: 20px; font-size: 24px; }
+.hidden { display: none !important; }
+#game-over { position: absolute; top: 40%; text-align: center; background: rgba(0,0,0,0.9); padding: 50px; border: 3px solid red; z-index: 10; }
