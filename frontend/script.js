@@ -4,7 +4,7 @@ let activeWords = [];
 let isGameOver = false;
 
 // Replace with your Render URL after Phase 4
-const BACKEND_URL = "https://word-slayer-api.onrender.com/api/v1/scores/slay";
+const BACKEND_URL = "https://word-slayer.onrender.com/api/v1/scores/slay";
 
 function createWord() {
     if (isGameOver) return;
